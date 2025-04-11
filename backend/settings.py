@@ -147,7 +147,7 @@ JAZZMIN_SETTINGS = {
     "welcome_sign": "Welcome to the lms Admin",
     # Copyright on the footer
     "copyright": "Mangaliso Maduna Merakta",
-
+    "search_model": ["auth.User", "auth.Group"],
     "show_ui_builder": False,
 }
 
@@ -182,3 +182,5 @@ JAZZMIN_UI_TWEAKS = {
         "success": "btn-success"
     }
 }
+
+AUTH_USER_MODEL = 'userauths.User'
