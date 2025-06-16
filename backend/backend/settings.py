@@ -153,3 +153,5 @@ JAZZMIN_SETTINGS = {
     "search_model": "auth.User",
     "show_ui_builder": True,
 }
+
+AUTH_USER_MODEL = 'userauths.User'
